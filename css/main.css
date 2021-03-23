@@ -1,0 +1,47 @@
+/*
+Style sheet for general classes used through out the website
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: roboto, sans-serif;
+  font-size: 1.15rem;
+  padding-left: 4rem;
+  color: #232323;
+}
+
+p{
+  max-width: 60rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+  max-width: 40rem;
+  margin: 1rem 0 1rem 0;
+}
+
+h1{
+  font-size: 2.8rem;
+}
+
+h2{
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #2967A6;
+}
+h3{ font-size: 1.8rem; }
+h4{ font-size: 1.6rem; }
+h5{ font-size: 1.4rem; }
+h6{ font-size: 1.2rem; }
+
+.element{
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.logo-icon{
+  max-width: 10rem;
+}
