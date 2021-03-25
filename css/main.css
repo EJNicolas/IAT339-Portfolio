@@ -2,6 +2,7 @@
 Style sheet for general classes used through out the website
 */
 
+/* General CSS*/
 *{
   box-sizing: border-box;
 }
@@ -26,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-  font-size: 2.8rem;
+  font-size: 6rem;
 }
 
 h2{
@@ -44,10 +45,29 @@ h6{ font-size: 1.2rem; }
   padding-bottom: 2rem;
 }
 
+.page-header{
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.page-title{
+  margin-left: 5rem;
+}
+
 .logo-icon{
   max-width: 10rem;
 }
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+/* In text link CSS*/
 .in-text-link{
   text-decoration: underline;
   color: white;
@@ -58,4 +78,81 @@ h6{ font-size: 1.2rem; }
 .in-text-link:hover{
   text-decoration: underline;
   color: #3586D6;
+}
+
+/* Button nav CSS*/
+.button-nav{
+  color: #000000;
+  background-color: #FFFFFF;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus{
+    background-color: #3586D6;
+    color: #FFFFFF;
+}
+
+/* Image as Link CSS*/
+.image-as-link{
+  transition: background-color 0.3s ease-out;
+}
+
+.image-as-link:hover{
+  background-color: #41BBE0;
+}
+
+/* Content with Image CSS*/
+.content-with-image{
+  margin-bottom: 3rem;
+}
+
+.content-with-image img{
+  margin-right: 4rem;
+}
+
+.content-with-image .content{
+  margin-right: 4rem;
+}
+
+/* Different sizes for images */
+.image-sm{
+    max-width: 30%;
+    height: auto;
+}
+
+.image-md{
+    max-width: 40%;
+    height: auto;
+}
+
+.image-lg{
+    max-width: 60%;
+    height: auto;
+}
+
+.image-full{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Different sizes for buttons */
+.button-sm{
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    font-size: 1rem;
+}
+
+.button-md{
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.button-lg{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    font-size: 2rem;
 }
