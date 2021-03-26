@@ -1,9 +1,20 @@
 .example-nav{
   padding-left: 4rem;
   padding-top: 2rem;
-  max-width: 40rem;
-  height: 80rem;
+  max-width: 30rem;
+  height: 70rem;
   background-color: white;
+}
 
+.example-nav a{
+  color: #232323;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  transition: color 0.1s ease-out;
+}
 
+.example-nav a:hover{
+  color: #3586D6;
 }

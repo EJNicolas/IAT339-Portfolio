@@ -120,6 +120,42 @@ h6{ font-size: 1.2rem; }
   margin-right: 4rem;
 }
 
+/* nav bar css*/
+.nav-flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#side-nav{
+  background-color: white;
+  height: 100vh;
+  max-width: 30rem;
+  padding-left: 4rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+#side-nav a{
+  color: #232323;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 3rem;
+  transition: color 0.1s ease-out;
+}
+
+#side-nav a:hover{
+  color: #3586D6;
+}
+
+
+.hidden{
+  visibility: hidden;
+}
+
 /* Different sizes for images */
 .image-sm{
     max-width: 30%;
