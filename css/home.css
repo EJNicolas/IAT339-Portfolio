@@ -1,0 +1,17 @@
+.hero-content-container{
+  background-image: url('../images/Lyra-full-map.png');
+  position: relative;
+  height: 100vh;
+  width: 99vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 7rem 45rem 7rem;
+  margin-bottom: 10rem;
+  margin-left: -4rem;
+}
+
+.hero-content-container h2{
+  color: white;
+  font-size: 7rem;
+}

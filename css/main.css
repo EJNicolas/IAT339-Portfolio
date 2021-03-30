@@ -13,6 +13,7 @@ body{
   padding-left: 4rem;
   background-color: #232323;
   color: white;
+  margin: 0;
 }
 
 p{
@@ -56,6 +57,7 @@ h6{ font-size: 1.2rem; }
 
 .logo-icon{
   max-width: 10rem;
+  align-self: flex-start;
 }
 
 .flex-container{
@@ -114,6 +116,7 @@ h6{ font-size: 1.2rem; }
 
 .content-with-image img{
   margin-right: 4rem;
+  align-self: flex-start;
 }
 
 .content-with-image .content{
