@@ -18,3 +18,7 @@
   padding-left: 5rem;
   border-left: 4px solid white;
 }
+
+.image-row img{
+  margin-right: 4rem;
+}
