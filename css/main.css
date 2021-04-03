@@ -159,6 +159,11 @@ h6{ font-size: 1.2rem; }
   visibility: hidden;
 }
 
+/* Image row*/
+.image-row img{
+  margin-right: 4rem;
+}
+
 /* Footer */
 footer{
   margin-top: 8rem;
