@@ -14,6 +14,7 @@ body{
   background-color: #232323;
   color: white;
   margin: 0;
+  overflow-x: hidden;
 }
 
 p{
@@ -210,4 +211,95 @@ footer a{
 .button-lg{
     padding: 1rem 2.5rem 1rem 2.5rem;
     font-size: 2rem;
+}
+
+/* Media Queries */
+
+@media( max-width: 1200px){
+  .element .flex-container{
+      flex-direction: column;
+  }
+
+  .image-row img{
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+  }
+
+  /* Different sizes for images in different screen sizes */
+  .image-sm{
+      max-width: 60%;
+      height: auto;
+  }
+
+  .image-md{
+      max-width: 70%;
+      height: auto;
+  }
+
+  .image-lg{
+      max-width: 80%;
+      height: auto;
+  }
+
+  .image-full{
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media( max-width: 1050px){
+  h1{
+    font-size: 5rem;
+  }
+
+  p{
+    max-width: 50rem;
+    margin-right: 1rem;
+  }
+}
+
+@media( max-width: 770px){
+  header .flex-container{
+    flex-direction: column;
+  }
+
+  .page-title{
+    margin-left: 0;
+  }
+
+  .element{
+    padding-left: 0;
+  }
+
+}
+
+@media( max-width: 500px){
+
+  body{
+    padding-left: 1.5rem;
+  }
+
+  h1{
+    font-size: 3.8rem;
+  }
+
+  h2{
+    font-size: 2.8rem;
+  }
+
+  .content-with-image .content {
+    margin-right: 1rem;
+  }
+
+  /* Different sizes for images in different screen sizes */
+  .image-sm{
+      max-width: 90%;
+      height: auto;
+  }
+
+  .image-md, .image-lg{
+      max-width: 100%;
+      height: auto;
+  }
+
 }
