@@ -1,0 +1,35 @@
+@keyframes nav-slide {
+  from {
+    transform: translateX(-30rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes nav-slide-back {
+  from {
+    transform: translateX(0rem);
+  }
+  to {
+    transform: translateX(-30rem);
+  }
+}
+
+.animate-nav-forward {
+  animation-name: nav-slide;
+  animation-duration: 0.15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+.animate-nav-back {
+  animation-name: nav-slide-back;
+  animation-duration: 0.15s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}

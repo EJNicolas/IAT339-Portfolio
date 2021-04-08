@@ -6,25 +6,27 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- icon attribute from https://www.w3schools.com/tags/att_link_sizes.asp -->
     <link rel="icon" href="images/logo.png">
     <!-- Style sheet for Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/prh3gfp.css">
 
-    <title>Home</title>
+    <title>Portfolio</title>
   </head>
 
   <body>
     <header>
       <div class="page-header flex-container">
-        <nav id="side-nav" class="hidden">
-          <img src="images/logo.png" alt="site-logo" id="logo" class="logo-icon image-as-link">
+        <nav id="side-nav">
+          <img src="images/logo.png" alt="close side nav" id="logo" class="logo-icon image-as-link" tabindex="0">
           <div class="nav-flex-container">
             <a href=index.html>Home</a>
             <a href=projects.html>Projects</a>
             <a href=contact.html>Contact</a>
           </div>
         </nav>
-        <img src="images/bright-logo.png" alt="site-logo" id="bright-logo" class="logo-icon image-as-link">
+        <img src="images/bright-logo.png" alt="open side nav" id="bright-logo" class="logo-icon image-as-link" tabindex="1">
         <h1 class="page-title">My Portfolio</h1>
       </div>
     </header>

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="icon" href="images/logo.png">
 
     <!-- Style sheet for Adobe Fonts -->
@@ -15,15 +16,15 @@
   <body>
     <header>
       <div class="page-header flex-container">
-        <nav id="side-nav" class="hidden">
-          <img src="images/logo.png" alt="site-logo" id="logo" class="logo-icon image-as-link">
+        <nav id="side-nav">
+          <img src="images/logo.png" alt="close side nav" id="logo" class="logo-icon image-as-link" tabindex="0">
           <div class="nav-flex-container">
             <a href=index.html>Home</a>
             <a href=projects.html>Projects</a>
             <a href=contact.html>Contact</a>
           </div>
         </nav>
-        <img src="images/bright-logo.png" alt="site-logo" id="bright-logo" class="logo-icon image-as-link">
+        <img src="images/bright-logo.png" alt="open side nav" id="bright-logo" class="logo-icon image-as-link" tabindex="1">
         <h1 class="page-title">Ant Blast</h1>
       </div>
     </header>
