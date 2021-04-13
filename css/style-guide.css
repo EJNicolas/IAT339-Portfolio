@@ -15,6 +15,6 @@
   transition: color 0.1s ease-out;
 }
 
-.example-nav a:hover{
+.example-nav a:hover, .example-nav a:focus{
   color: #3586D6;
 }

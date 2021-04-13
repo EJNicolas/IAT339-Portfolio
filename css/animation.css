@@ -16,6 +16,15 @@
   }
 }
 
+@keyframes pulse {
+  0% {
+   transform: scale(1, 1);
+  }
+  100% {
+  transform: scale(1.1, 1.1);
+  }
+}
+
 .animate-nav-forward {
   animation-name: nav-slide;
   animation-duration: 0.15s;
@@ -30,6 +39,15 @@
   animation-duration: 0.15s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+.logo-background {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   animation-fill-mode: both;
   animation-direction: alternate;
 }
