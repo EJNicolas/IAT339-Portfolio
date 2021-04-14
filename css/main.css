@@ -58,15 +58,15 @@ h6{ font-size: 1.2rem; }
 
 .logo-icon{
   max-width: 10rem;
-  background-color: #41BBE0;
+  /* background-color: #41BBE0; */
   align-self: flex-start;
-  position: absolute;
 }
 
 .logo-background{
   background-color: #41BBE0;
   width: 10rem;
-  height: auto;
+  height: 10rem;
+  align-self: flex-start;
   position: relative;
 }
 
@@ -304,6 +304,15 @@ footer a{
 
   .content-with-image .content {
     margin-right: 1rem;
+  }
+
+  .logo-icon{
+    max-width: 8rem;
+  }
+
+  .logo-background{
+    width: 8rem;
+    height: 8rem;
   }
 
   /* Different sizes for images in different screen sizes */
