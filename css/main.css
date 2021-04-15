@@ -75,6 +75,11 @@ h6{ font-size: 1.2rem; }
 }
 
 .flex-container{
+  /* Flex compaitbility with other browsers referenced from https://css-tricks.com/using-flexbox/ */
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
   flex-direction: row;
   align-content: flex-start;
@@ -324,6 +329,10 @@ footer a{
   .image-md, .image-lg{
       max-width: 100%;
       height: auto;
+  }
+
+  #side-nav{
+    padding-left: 2rem;
   }
 
 }
